@@ -66,5 +66,15 @@ F - true
 
 15 - == converts the variable to the same type before comparision. However, === does not. So for === it has to have the same type and value for it to be true.
 
-16 - 
+17 - the result will be [ 2, 4, 6 ] the function modifyArray takes each element of array and push it after calling callback on the element. The callback here is doSomething, which multiplies the number parameter by two and then return it.
+
+19 - 
+
+4
+
+3
+
+2
+
+2 is printed after one second
 
